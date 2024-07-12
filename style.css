@@ -37,6 +37,10 @@ p {
 
 .info-btn {
     background-color: white;
+    width: 130px;
+    height: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: black;
     padding: 25px, 35px;
     text-decoration: none;
