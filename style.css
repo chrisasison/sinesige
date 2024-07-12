@@ -35,13 +35,13 @@ p {
     text-align: center;
 }
 
-.RSVP-btn {
+.info-btn {
     background-color: white;
     color: black;
-    padding: 15px, 25px;
+    padding: 25px, 35px;
     text-decoration: none;
 }
 
-.RSVP-btn:hover {
+.info-btn:hover {
     background-color: red;
 }
