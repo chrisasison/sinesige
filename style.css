@@ -59,3 +59,16 @@ a {
 .info-btn:hover {
     background-color: red;
 }
+
+.cw-btn {
+    margin: 0 auto;
+    color: black;
+    padding: 25px, 25px;
+    text-decoration: none;
+    display: block;
+    line-height: 50px ;
+}
+
+.cw-btn:hover {
+    background-color: red;
+}
