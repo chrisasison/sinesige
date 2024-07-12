@@ -75,3 +75,26 @@ a {
 .cw-btn:hover {
     background-color: red;
 }
+
+/* Basic styles for the container and content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+  }
+  
+  .container h1, .container p, .container button {
+    margin: 10px 0;
+  }
+  
+  /* Responsive design: center content on small screens */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  }
+  
