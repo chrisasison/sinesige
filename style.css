@@ -89,15 +89,12 @@ a {
   
   
   /* Responsive design: center content on small screens */
-  @media (max-width: 720px) {
+  @media screen and (max-width: 720px) {
     .container {
       padding: 20px;
       box-sizing: border-box;
+      display: flex;
     }
 
-    h3 {
-        display: flex;
-        
-    }
   }
   
