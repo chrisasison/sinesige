@@ -40,7 +40,8 @@ p {
 }
 
 a {
-    margin-bottom: 5%;
+    margin-bottom: 20%;
+    padding: 25px, 25px;
 }
 
 .info-btn {
