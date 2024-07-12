@@ -87,15 +87,17 @@ a {
     
   }
   
-  .container h1, .container p, .container button {
-    margin: 10px 0;
-  }
   
   /* Responsive design: center content on small screens */
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     .container {
       padding: 20px;
       box-sizing: border-box;
+    }
+
+    h3 {
+        display: flex;
+        
     }
   }
   
