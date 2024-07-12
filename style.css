@@ -44,6 +44,7 @@ p {
     padding: 25px, 35px;
     text-decoration: none;
     display: block;
+    text-align: center;
 }
 
 .info-btn:hover {
