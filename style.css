@@ -47,10 +47,10 @@ a {
 .info-btn {
     background-color: white;
     width: 130px;
-    height: 60px;
+    height: 40px;
     margin: 0 auto;
     color: black;
-    
+    padding: 50px, 50px;
     text-decoration: none;
     display: block;
     line-height: 50px ;
