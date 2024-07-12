@@ -40,6 +40,7 @@ p {
     color: black;
     padding: 25px, 35px;
     text-decoration: none;
+    display: block;
 }
 
 .info-btn:hover {
