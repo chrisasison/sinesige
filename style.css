@@ -82,8 +82,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     text-align: center;
+    
   }
   
   .container h1, .container p, .container button {
