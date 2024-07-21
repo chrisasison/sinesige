@@ -1,78 +1,96 @@
 body {
-    background-image: url(images/fire.jpg);
+    background-image: url(images/cleaners.jpg);
     background-size: cover;
     background-repeat: repeat-y;
     background-color: black;
 }
 
 header {
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
+   
 
 }
 
 h1 {
     font-family: horizon, sans-serif;
-    font-size: 200%;
+    font-size: 2rem;
     
 }
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 10%;
+    margin-bottom: 5rem;
+    font-size: 1rem;
 
 }
 
 h3 {
-    font-family: "cubao free", sans-serif;
-    font-size: 1000%;
-    margin-top: 0;
-    margin-bottom:0;
+    font-family: horizon, sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+    margin-top: 5%;
+   
 }
 
 h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: horizon, sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+    margin-top: -2rem;
 }
+
+ 
 
 p {
     color: white;
     text-align: center;
-}
-
-a {
-    margin-bottom: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8rem;
 }
 
-.info-btn {
-    background-color: white;
-    width: 130px;
-    height: 60px;
-    margin: 0 auto;
-    color: black;
-    padding: 25px, 25px;
-    text-decoration: none;
-    display: block;
-    line-height: 50px ;
-}
-
-.info-btn:hover {
-    background-color: red;
-}
-
-.cw-btn {
-    background-color: white;
-    width: 130px;
-    height: 60px;
-    margin: 0 auto;
-    color: black;
-    padding: 25px, 25px;
-    text-decoration: none;
-    display: block;
+.container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-end;  /* Align buttons to the right */
+    justify-content: center; /* Center buttons vertically */
+    gap: 5px;
    
 }
 
-.cw-btn:hover {
-    background-color: red;
+
+.info-btn {
+    width: 160px;
+    height: 40px;
+    background-color: grey;
+    text-decoration: none;
+    text-align:center;
+    animation: colorChange 4s infinite; /* 4s duration and infinite loop */
+    font-family: horizon, sans-serif;
+   
 }
+    
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: red; /* Loops back to the start */
+    }
+}
+
+
+
+
 
