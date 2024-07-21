@@ -74,19 +74,19 @@ p {
     
 @keyframes colorChange {
     0% {
-        color: red;
+        color: #ff10f0;
     }
     25% {
-        color: blue;
+        color: cyan;
     }
     50% {
-        color: green;
+        color: #39ff14;
     }
     75% {
-        color: orange;
+        color: #cfff04;
     }
     100% {
-        color: red; /* Loops back to the start */
+        color: #ff6700; /* Loops back to the start */
     }
 }
 
