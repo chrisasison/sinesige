@@ -30,7 +30,7 @@ h3 {
     font-size: 2rem;
     text-align: right;
     color: white;
-    margin-top: 5.5%;
+    margin-top: 5.75%;
    
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 a {
-    color: white
+    color: black;
 }
 
 .container {
@@ -68,7 +68,7 @@ a {
 .info-btn {
     width: 160px;
     height: 40px;
-    background-color: whitesmoke;
+    background-color: grey;
     text-decoration: white;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
