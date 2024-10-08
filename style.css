@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-family: horizon, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: right;
     color: white;
@@ -35,7 +35,7 @@ h3 {
 }
 
 h4 {
-    font-family: horizon, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: right;
     color: white;
@@ -65,10 +65,9 @@ p {
     width: 160px;
     height: 40px;
     background-color: none;
-    text-decoration: none;
+    text-decoration: white;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-    border-color: grey;
     color: white
 
 }
