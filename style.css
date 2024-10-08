@@ -30,7 +30,7 @@ h3 {
     font-size: 2rem;
     text-align: right;
     color: white;
-    margin-top: 5%;
+    margin-top: 8%;
    
 }
 
@@ -64,11 +64,11 @@ p {
 .info-btn {
     width: 160px;
     height: 40px;
-    background-color: none;
-    text-decoration: white;
+    background-color: white;
+    text-decoration: grey;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-    color: white
+    
 
 }
     
