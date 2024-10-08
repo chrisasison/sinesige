@@ -68,6 +68,8 @@ p {
     text-decoration: none;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-   
+    border-color: grey;
+    color: white
+
 }
     
