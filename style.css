@@ -159,10 +159,8 @@
 
       }
       
-    
-      .bio {
-        width: 18.3rem;
-      }
+      .bio-title {
+        width: 100%;
     
       .project-container {
         width: 17.875rem;
