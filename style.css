@@ -120,7 +120,7 @@
      color: transparent;
      font-family: "Futura XBlkCnIt BT", sans-serif;
      font-size: 13rem;
-     -webkit-text-stroke: 8px white;
+     -webkit-text-stroke: .5rem white;
      justify-content: center;
      margin-top: -25rem;
   
@@ -170,4 +170,4 @@
         max-width: 17.75rem;
       }
     }
-    
+     
