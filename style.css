@@ -152,27 +152,4 @@
       
     }
 
-    @media screen and (max-width: 420px) {
-      body {
-        height: 100%;
-        width: 100%;
     
-      }
-      
-      .bio-title {
-        font-size: 5rem;
-      }
-      .bio-text {
-        font-size: 1rem;
-        font-style: italic;
-        padding: 0rem .5rem 0.5rem;
-    
-    
-      }
-      .bio-text1 {
-        line-height: 1;
-        font-size: .5rem;
-        
-    
-      }
-    }
