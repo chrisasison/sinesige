@@ -1,9 +1,9 @@
 @import url(assets/Typeface/BAUHS93.TTF);
-
+@import url(assets/Typeface/FUTUR.TTF);
 
 /* Variables */
 :root {
-    --font-family: Futura, sans-serif ;
+    --font-family: FUTUR, sans-serif;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
