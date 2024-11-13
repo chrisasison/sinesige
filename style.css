@@ -153,10 +153,12 @@
     }
 
     @media screen and (max-width: 420px) {
-      .hero img {
-        height: 37.5rem;
-        width: 23rem;
+      body {
+        height: 100%;
+        width: 100%;
+
       }
+      
     
       .bio {
         width: 18.3rem;
