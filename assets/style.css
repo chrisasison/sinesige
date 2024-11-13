@@ -1,0 +1,153 @@
+
+/* Variables */
+:root {
+  --font-family: ;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: black;
+  --primary-color: white;
+  --secondary-color: #ff4d00;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-family: "bauhaus 93", sans-serif;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+  height: 100%;
+  background-image: url(https://is1-ssl.mzstatic.com/image/thumb/AiJ3R4OacaBYiTh_w4Lyng/1200x675.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .005rem 1.5rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  nav h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    
+  }
+  
+  nav a {
+    color: rgb(48, 0, 48);
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .hero {
+    display: flex;
+    gap: 2.5rem;
+    max-width: 40rem;
+    margin: 25rem 5rem 0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke
+ 
+   
+  }
+  
+  .bio-title {
+   color: transparent;
+   font-family: "Futura XBlkCnIt BT", sans-serif;
+   font-size: 13rem;
+   -webkit-text-stroke: 8px white;
+   justify-content: center;
+   margin-top: -25rem;
+
+  }
+  
+  .bio-text {
+    color: white;
+    font-size: 5rem;
+    margin-left: -34rem;
+    font-style: italic;
+    margin-top: -7rem;
+
+  }
+  .bio-text1 {
+    line-height: 1;
+    margin-top: 8rem;
+    margin-left:-75rem;
+    font-size: 1.5rem;
+    color:  whitesmoke;
+
+  }
+
+  footer {
+    background-color: transparent;
+    text-align: center;
+    margin: 2.5rem 0rem -15rem;
+    color: peru;
+   font-family: Arial, Helvetica, sans-serif;
+    
+  }
