@@ -154,12 +154,57 @@
       
     }
 
-    @media screen and (max-width: 420px) {
-      body {
-        width: 100%;
-      }
-
+    @media screen and (max-width: 720px) {
+      /*changes reflects on screen with a width of 720px and below*/
       nav {
-        width: 100%;
+        padding: 0.005rem .75rem;
       }
+  
+      .bio-title {
+        font-size: 6.5rem;
+        -webkit-text-stroke: .3rem white;
+      }
+  
+      .bio-text {
+        font-size: 3rem;
+        margin-left: 0rem;
+        margin-top: -3rem;
+        padding: 0;
+  
+      }
+  
+      .bio-text1 {
+        margin-top: 2rem;
+        margin-left:0;
+        font-size: 1.4rem;
+      }
+    
+    }
+    
+    @media screen and (max-width: 420px) {
+      /*changes reflects on screen with a width of 720px and below*/
+      nav {
+        padding: 0.005rem .75rem;
+        font-size: 16px;
+      }
+  
+      .bio-title {
+        font-size: 16px;
+        -webkit-text-stroke: 4px white;
+      }
+  
+      .bio-text {
+        font-size: 32px;
+        margin-left: 0rem;
+        margin-top: -3rem;
+        padding: 0;
+  
+      }
+  
+      .bio-text1 {
+        margin-top: 2rem;
+        margin-left:0;
+        font-size: 16px;
+      }
+    
     }
