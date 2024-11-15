@@ -212,25 +212,25 @@
   @media screen and (max-width: 320px) {
     /*changes reflects on screen with a width of 320px and below*/
     nav {
-      padding: 0.0025rem .5rem;
-      font-size: 5px;
+      padding: 0.0025em .5em;
+      font-size: 5em;
     }
 
     .bio-title {
-      font-size: 5px;
-      -webkit-text-stroke: 1px white;
+      font-size: 5em;
+      -webkit-text-stroke: 1em white;
     }
 
     .bio-text {
-      font-size: 20px;
-      margin-left: 0rem;
-      margin-top: -1rem;
+      font-size: 20em;
+      margin-left: 0em;
+      margin-top: -1em;
       padding: 0;
 
     }
 
     .bio-text1 {
-      margin-top: .05rem;
+      margin-top: .05em;
       margin-left:0;
       font-size: 6px;
     }
