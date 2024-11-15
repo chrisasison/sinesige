@@ -209,7 +209,7 @@
     }
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 700px) {
     /*changes reflects on screen with a width of 320px and below*/
     nav {
       padding: 0.0025em .5em;
