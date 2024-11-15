@@ -113,7 +113,8 @@
       max-width: 40rem;
       margin: 25rem 5rem 0rem;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: whitesmoke
+      color: whitesmoke;
+      
    
      
     }
@@ -158,6 +159,11 @@
       /*changes reflects on screen with a width of 720px and below*/
       nav {
         padding: 0.005rem .75rem;
+      }
+
+      .hero {
+        display: flex;
+        margin-left: 0em;
       }
   
       .bio-title {
