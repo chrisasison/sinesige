@@ -213,16 +213,16 @@
     /*changes reflects on screen with a width of 320px and below*/
     nav {
       padding: 0.0025em .5em;
-      font-size: 5em;
+      font-size: 1em;
     }
 
     .bio-title {
-      font-size: 5em;
+      font-size: 1em;
       -webkit-text-stroke: 1em white;
     }
 
     .bio-text {
-      font-size: 20em;
+      font-size: 1em;
       margin-left: 0em;
       margin-top: -1em;
       padding: 0;
@@ -232,7 +232,7 @@
     .bio-text1 {
       margin-top: .05em;
       margin-left:0;
-      font-size: 6px;
+      font-size: 1em;
     }
   
   }
