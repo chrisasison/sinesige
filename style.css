@@ -219,6 +219,7 @@
     .bio-title {
       font-size: 0.5em;
       -webkit-text-stroke: 1px white;
+      margin-left: 0;
     }
 
     .bio-text {
