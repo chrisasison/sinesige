@@ -213,7 +213,7 @@
     /*changes reflects on screen with a width of 320px and below*/
     nav {
       padding: 0.0025em .5em;
-      font-size: 1em;
+      font-size: 0.5em;
     }
 
     .bio-title {
