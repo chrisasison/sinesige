@@ -182,7 +182,7 @@
     }
     
     @media screen and (max-width: 420px) {
-      /*changes reflects on screen with a width of 720px and below*/
+      /*changes reflects on screen with a width of 420px and below*/
       nav {
         padding: 0.005rem .75rem;
         font-size: 16px;
@@ -206,5 +206,33 @@
         margin-left:0;
         font-size: 16px;
       }
-    
     }
+
+
+  @media screen and (max-width: 320px) {
+    /*changes reflects on screen with a width of 320px and below*/
+    nav {
+      padding: 0.005rem .75rem;
+      font-size: 10px;
+    }
+
+    .bio-title {
+      font-size: 10px;
+      -webkit-text-stroke: 4px white;
+    }
+
+    .bio-text {
+      font-size: 26px;
+      margin-left: 0rem;
+      margin-top: -3rem;
+      padding: 0;
+
+    }
+
+    .bio-text1 {
+      margin-top: 2rem;
+      margin-left:0;
+      font-size: 10px;
+    }
+  
+  }
