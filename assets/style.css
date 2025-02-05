@@ -9,7 +9,7 @@
 body {
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=40252), default;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 1rem 2rem 1rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
   align-items: center;
