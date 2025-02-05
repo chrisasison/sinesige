@@ -7,6 +7,7 @@
 
 
 body {
+  background-image: url('March.gif');
   display: flex;
   flex-direction: column;
   margin: 1rem 2rem 1rem;
