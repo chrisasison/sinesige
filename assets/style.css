@@ -7,12 +7,10 @@
 
 
 body {
-  background-image: url("assets/images/March.gif"), auto;
   display: flex;
   flex-direction: column;
   margin: 1rem 2rem 1rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-  cursor: url("assets/images/—Pngtree—original red umbrella material_5781640.png"),auto;
 }
 
 .banner {
