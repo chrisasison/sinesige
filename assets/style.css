@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction:column;
-  font-family: "Comic Sans MS", "Comic Sans", ;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif ;
   background-color: black;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -42,7 +42,7 @@ body {
   color: yellow;
   font-size: xx-large;
   background-color: transparent;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 .banner-content {
