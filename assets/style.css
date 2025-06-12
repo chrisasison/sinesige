@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction:column;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", ;
   background-color: black;
   background-repeat: no-repeat;
   background-position-x: center;
