@@ -79,10 +79,18 @@ li a:hover {
 }
 
 @media (max-width: 768px) {
-  body {
-    background-size: contain;
+  .background {
+    background-size: cover;
     background-position: center center;
     background-attachment: scroll;
   }
+
+  .navbar {
+    margin: 10vh;
+  }
 }
+    
+
+  
+
 
