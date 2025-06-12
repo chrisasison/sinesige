@@ -3,23 +3,22 @@
   margin: 0;
   padding: 0;
   width: 100vw;
+  height: 100vh;
 }
 
+.background {
 
+}
 body {
   display: flex;
   flex-direction:column;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif ;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   background-color: black;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 2.5rem;
   
 
-}
-
-.background {
-  width: 100%;
 }
 
 .hero {
@@ -46,7 +45,7 @@ body {
   color: yellow;
   font-size: xx-large;
   background-color: transparent;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .banner-content {
