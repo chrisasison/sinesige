@@ -128,8 +128,7 @@ body {
   body {
     font-size: 16px;
     padding: 10px;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+
   }
 
   .container {
