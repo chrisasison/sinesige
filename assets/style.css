@@ -5,7 +5,7 @@ html, body {
   background-color: black;
 }
 .background {
-  background-image: url("../assets/images/Perfumed_Nightmare.gif");
+  background-image: url("../assets/images/Perfumed\ Nightmare.gif");
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 100vh;
