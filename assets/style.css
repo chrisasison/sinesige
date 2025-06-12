@@ -1,4 +1,141 @@
-.nav {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction:column;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 2.5rem;
+  justify-content: center;
+
+}
+
+/* event info */
+.hero {
+  margin: 20vw auto 0 auto ;
+  color: palegoldenrod;
+  text-align: center;
+}
+
+.bio-title {
+  font-size: 1rem;
+}
+
+.bio-text {
+  font-size: 1rem;
+  margin: 0vw 3vw;
+}
+
+.bio-p {
+  font-size: 1rem;
+}
+
+/* currently hidden */
+.banner {
+  width: 100%;
+  padding: 1;
+  position: relative;
+  color: yellow;
+  font-size: xx-large;
+  background-color: transparent;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.banner-content {
+  display: block;
+  animation: scrollBanner 20s linear infinite;
+}
+
+/* Keyframe for scrolling */
+@keyframes scrollBanner {
+  0% {transform: translateX(100%); /* Start off-screen (right) */
+  }
+  100% {transform: translateX(-100%); /* End off-screen (left) */
+  }
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 0rem;
+}
+
+nav a {
+  color: red;
+  transition: .3s;
+  text-decoration: none;
+  
+}
+nav a:hover {
+  filter:invert(2)
+}
+
+nav ul {
+  display: flex;
+  gap: 0rem;
+}
+
+nav ul li {
+  font-weight:lighter;
+}
+
+
+
+#footer {
+  text-align: center; /* Centers text in the footer */
+  color: whitesmoke; /* Text color */
+  font-size: small;
+  position: absolute;
+  padding: 0;
+  
+}
+
+/* Base styles (for desktop) */
+body {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+    background-attachment: scroll;
+
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .nav {
     display: none;
     flex-direction: column;
     background-color: #333;
@@ -11,7 +148,40 @@
   .burger {
     display: block;
   }
-}
+
   .main-content {
     width: 100%;
   }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  body {
+    font-size: small;
+    padding: 5px;
+    background-attachment: scroll;
+  }
+
+  nav, .sidebar {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/* Hide burger icon on desktop */
+.burger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
