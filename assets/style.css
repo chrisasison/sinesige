@@ -1,16 +1,70 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.background {
   background-image: url("../assets/images/Perfumed_Nightmare.gif");
   background-repeat: no-repeat;
-  background-position: center -10%;
-  background-attachment: scroll;
-  height: 100%;
-
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Navbar container */
+.navbar {
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Remove bullets and spacing */
+li {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Hover effect */
+li a:hover {
+  color: gold;
+  transform: scale(1.05);
+}
+
+.hero {
+  color: white;
+  padding: 2.5rem;
+  margin: 5rem 0 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+.bio-title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+.bio-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small ;
+}
+
+.bio-p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
 @media (max-width: 768px) {
   body {
-    background-size: contain;
-    background-position: center -10%;
+    background-size: cover;
+    background-position: center center;
     background-attachment: scroll;
   }
 }
+
