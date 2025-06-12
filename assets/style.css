@@ -8,32 +8,36 @@
 body {
   display: flex;
   flex-direction:column;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   background-color: black;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 2.5rem;
-  
+  justify-content: center;
 
 }
 
+/* event info */
 .hero {
   margin-left:45vw ;
   margin-top: 20vw;
   color: palegoldenrod;
 }
+
 .bio-title {
-  font-size: large;
+  font-size: 1rem;
 }
 
 .bio-text {
-  font-size: large;
+  font-size: 1rem;
   margin: 0vw 3vw;
 }
 
 .bio-p {
-  font-size: small;
+  font-size: 1rem;
 }
+
+/* currently hidden */
 .banner {
   width: 100%;
   padding: 1;
@@ -65,9 +69,9 @@ nav {
   z-index: 1;
   display: flex;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 html {
@@ -130,6 +134,7 @@ body {
   .container {
     flex-direction: column;
     width: 100%;
+    
   }
 }
 
@@ -141,9 +146,37 @@ body {
   }
 
   nav, .sidebar {
-    display: none; /* hide unnecessary elements */
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 
+/* Hide burger icon on desktop */
+.burger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive styles for phones */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+}
   .main-content {
     width: 100%;
   }
