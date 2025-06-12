@@ -18,6 +18,10 @@ body {
 
 }
 
+.background {
+  width: 100%;
+}
+
 .hero {
   margin-left:45vw ;
   margin-top: 20vw;
