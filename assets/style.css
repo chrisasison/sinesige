@@ -116,6 +116,7 @@ body {
   font-size: 18px;
   margin: 0 auto;
   max-width: 1200px;
+  width: 100%;
 }
 
 /* Medium screens (tablets) */
@@ -123,17 +124,19 @@ body {
   body {
     font-size: 16px;
     padding: 10px;
+   
   }
 
   .container {
     flex-direction: column;
+    width: 100%;
   }
 }
 
 /* Small screens (phones) */
 @media (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: small;
     padding: 5px;
   }
 
