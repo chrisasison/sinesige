@@ -4,8 +4,9 @@ html, body {
   padding: 0;
   background-color: black;
 }
+
 .background {
-  background-image: url("../assets/images/Perfumed\ Nightmare.gif");
+  background-image: url("../assets/images/Perfumed_Nightmare.gif");
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 100vh;
@@ -28,9 +29,14 @@ li {
   justify-content: left;
   gap: 2rem;
   margin: 0;
-  padding: 0;
+  padding: .5rem;
 }
 
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: palegoldenrod;
+  text-decoration:none;
+}
 
 /* Hover effect */
 li a:hover {
@@ -40,8 +46,8 @@ li a:hover {
 
 .hero {
   color: white;
-  padding: 2.5rem;
-  margin: 5rem 0 0;
+  padding: 3rem;
+  margin: 2rem 0 0;
   position: sticky;
   z-index: 1000;
 }
@@ -60,6 +66,16 @@ li a:hover {
   font-family: 'Courier New', Courier, monospace;
   font-size: medium;
 }
+
+#footer {
+  color: white;
+  text-align: left;
+  margin: -5rem 3rem;
+  font-size: small;
+  position: relative;
+  line-height: .5;
+}
+
 @media (max-width: 768px) {
   body {
     background-size: cover;
