@@ -5,7 +5,6 @@
   width: 100%;
 }
 
-
 body {
   display: flex;
   flex-direction:column;
@@ -112,5 +111,44 @@ nav ul li {
   
 }
 
+/* Base styles (for desktop) */
+body {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  nav, .sidebar {
+    display: none; /* hide unnecessary elements */
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
 
 
